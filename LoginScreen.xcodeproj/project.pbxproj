@@ -13,6 +13,7 @@
 		64B410F61F8ACBDB0064CBA8 /* LoginScreen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64B410F41F8ACBDB0064CBA8 /* LoginScreen.xcdatamodeld */; };
 		64B410F81F8ACBDB0064CBA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B410F71F8ACBDB0064CBA8 /* Assets.xcassets */; };
 		64B410FB1F8ACBDB0064CBA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B410F91F8ACBDB0064CBA8 /* LaunchScreen.storyboard */; };
+		64B411031F8AD2320064CBA8 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B411021F8AD2320064CBA8 /* LoginTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		64B410F71F8ACBDB0064CBA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64B410FA1F8ACBDB0064CBA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64B410FC1F8ACBDB0064CBA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64B411021F8AD2320064CBA8 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		64B411051F8AE8350064CBA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +59,10 @@
 		64B410EC1F8ACBDB0064CBA8 /* LoginScreen */ = {
 			isa = PBXGroup;
 			children = (
+				64B411051F8AE8350064CBA8 /* GoogleService-Info.plist */,
 				64B410ED1F8ACBDB0064CBA8 /* AppDelegate.swift */,
 				64B410EF1F8ACBDB0064CBA8 /* ViewController.swift */,
+				64B411021F8AD2320064CBA8 /* LoginTextField.swift */,
 				64B410F11F8ACBDB0064CBA8 /* Main.storyboard */,
 				64B410F71F8ACBDB0064CBA8 /* Assets.xcassets */,
 				64B410F91F8ACBDB0064CBA8 /* LaunchScreen.storyboard */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B410F01F8ACBDB0064CBA8 /* ViewController.swift in Sources */,
+				64B411031F8AD2320064CBA8 /* LoginTextField.swift in Sources */,
 				64B410EE1F8ACBDB0064CBA8 /* AppDelegate.swift in Sources */,
 				64B410F61F8ACBDB0064CBA8 /* LoginScreen.xcdatamodeld in Sources */,
 			);
@@ -215,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -266,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
